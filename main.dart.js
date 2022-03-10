@@ -35471,7 +35471,7 @@ s.eo(A.a(r.d,"_input"))},
 aT(){this.d=this.a.d
 this.bp()},
 I(a,b){var s,r,q,p,o,n,m=this,l=null,k="_input",j=A.awZ(A.a(m.d,k).a),i=A.aq(A.b_("Wind Speed:\n"+B.c.cb(A.a(m.d,k).a)+" (km/h)",l,l,l,l,l,l),1),h=A.a(m.d,k).a,g=t.p
-h=A.bi(A.b([i,A.aq(A.eB(25,""+B.c.cb(A.a(m.d,k).a)+" km/h\nBeaufort scale:\n"+j.a+"\n"+j.b+"\n"+j.c,50,0,new A.R2(m),h),2)],g),B.p,B.n,B.r)
+h=A.bi(A.b([i,A.aq(A.eB(50,""+B.c.cb(A.a(m.d,k).a)+" km/h\nBeaufort scale:\n"+j.a+"\n"+j.b+"\n"+j.c,50,0,new A.R2(m),h),2)],g),B.p,B.n,B.r)
 i=A.aq(A.b_("Wind Direction:\n"+A.Bx(A.a(m.d,k).b)+" "+B.c.i(A.a(m.d,k).b)+"\xb0",l,l,l,l,l,l),1)
 s=A.a(m.d,k).b
 s=A.bi(A.b([i,A.aq(A.eB(16,A.Bx(A.a(m.d,k).b)+" "+A.e(A.a(m.d,k).b)+"\xb0",360,0,new A.R3(m),s),2)],g),B.p,B.n,B.r)
