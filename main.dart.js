@@ -7503,7 +7503,7 @@ o1:function o1(a,b,c){this.c=a
 this.d=b
 this.a=c},
 awZ(a){if(a<1)return new A.e0("< 1","Calm","Smoke rises vertically.")
-if(a>=1&&a<6)return new A.e0("1-5","Light air","Direction shown by smoke drift but not by wind vanes.")
+if(a>=1&&a<6)return new A.e0("1-5","Light air","Direction shown by smoke drift\nbut not by wind vanes.")
 if(a>=6&&a<12)return new A.e0("6-11","Light breeze","Wind felt on face;\nleaves rustle;\nwind vane moved by wind.")
 if(a>=12&&a<20)return new A.e0("12-19","Gentle breeze","Leaves and small twigs in constant motion;\nlight flags extended.")
 if(a>=20&&a<29)return new A.e0("20-28","Moderate breeze","Raises dust and loose paper;\nsmall branches moved.")
@@ -35471,7 +35471,7 @@ s.eo(A.a(r.d,"_input"))},
 aT(){this.d=this.a.d
 this.bp()},
 I(a,b){var s,r,q,p,o,n,m=this,l=null,k="_input",j=A.awZ(A.a(m.d,k).a),i=A.aq(A.b_("Wind Speed:\n"+B.c.cb(A.a(m.d,k).a)+" (km/h)",l,l,l,l,l,l),1),h=A.a(m.d,k).a,g=t.p
-h=A.bi(A.b([i,A.aq(A.eB(100,""+B.c.cb(A.a(m.d,k).a)+" km/h\nBeaufort scale:\n"+j.a+"\n"+j.b+"\n"+j.c,50,0,new A.R2(m),h),2)],g),B.p,B.n,B.r)
+h=A.bi(A.b([i,A.aq(A.eB(25,""+B.c.cb(A.a(m.d,k).a)+" km/h\nBeaufort scale:\n"+j.a+"\n"+j.b+"\n"+j.c,50,0,new A.R2(m),h),2)],g),B.p,B.n,B.r)
 i=A.aq(A.b_("Wind Direction:\n"+A.Bx(A.a(m.d,k).b)+" "+B.c.i(A.a(m.d,k).b)+"\xb0",l,l,l,l,l,l),1)
 s=A.a(m.d,k).b
 s=A.bi(A.b([i,A.aq(A.eB(16,A.Bx(A.a(m.d,k).b)+" "+A.e(A.a(m.d,k).b)+"\xb0",360,0,new A.R3(m),s),2)],g),B.p,B.n,B.r)
@@ -35483,7 +35483,7 @@ q=A.a(m.d,k).d
 q=A.bi(A.b([i,A.aq(A.eB(16,A.Bx(A.a(m.d,k).d)+" "+B.c.i(A.a(m.d,k).d)+"\xb0",360,0,new A.R5(m),q),2)],g),B.p,B.n,B.r)
 i=A.aq(A.b_("Buildup Index:\n"+B.c.cb(A.a(m.d,k).e),l,l,l,l,l,l),1)
 p=A.a(m.d,k).e
-p=A.bi(A.b([i,A.aq(A.eB(200,""+B.c.cb(A.a(m.d,k).e),200,0,new A.R6(m),p),2)],g),B.p,B.n,B.r)
+p=A.bi(A.b([i,A.aq(A.eB(40,""+B.c.cb(A.a(m.d,k).e),200,0,new A.R6(m),p),2)],g),B.p,B.n,B.r)
 i=A.aq(A.b_("FFMC:\n"+B.c.cb(A.a(m.d,k).r),l,l,l,l,l,l),1)
 o=A.a(m.d,k).r
 o=A.bi(A.b([i,A.aq(A.eB(20,""+B.c.cb(A.a(m.d,k).r),100,80,new A.R7(m),o),2)],g),B.p,B.n,B.r)
