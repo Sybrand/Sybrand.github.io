@@ -37134,9 +37134,9 @@ e3=A.aAk(e1)
 a2=t.p
 a3=A.b([A.bW(A.b([A.bC(new A.vS(new A.RP(e7),e7.e,e8),1)],a2),B.w,B.v,B.x)],a2)
 a4=e7.e.b
-if(a4===B.d1||a4===B.d2){a4=e7.u2("Grass Fuel Load",B.c.H(e7.as,2)," kg/\u33a1",B.aO,B.b2)
+if(a4===B.d1||a4===B.d2){a4=e7.u2("GFL",B.c.H(e7.as,2)," kg/\u33a1",B.aO,B.b2)
 e4=e7.as
-a3.push(A.bW(A.b([a4,A.bC(A.ih(e2,18,B.c.H(e4,2)+" kg/\u33a1",1,0.1,new A.RQ(e7),e4),10)],a2),B.w,B.v,B.x))}a4=e7.e.b
+a3.push(A.bW(A.b([a4,A.bC(A.ih(e2,18,"Grass Fuel Load: "+B.c.H(e4,2)+" kg/\u33a1",1,0.1,new A.RQ(e7),e4),10)],a2),B.w,B.v,B.x))}a4=e7.e.b
 if(a4===B.cp||a4===B.cq){a4=e7.w
 a4=e7.u2("Dead Balsam",B.c.H(a4==null?0:a4,0),"%",B.aO,B.b2)
 e4=e7.w
